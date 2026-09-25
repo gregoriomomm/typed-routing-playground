@@ -38,8 +38,8 @@ Before publishing a new installer:
 ## Verification
 
 ```bash
-curl -fsSL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.4/SHA256SUMS
-curl -IL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.4/typed-intent-routing-playground-1.0.4-macos-arm64.dmg
+curl -fsSL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.5/SHA256SUMS
+curl -IL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.5/typed-intent-routing-playground-1.0.5-macos-arm64.dmg
 ```
 
 The checksum file is the source of truth for the published artifacts. If a
