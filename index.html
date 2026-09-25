@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Typed Intent Routing Playground</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    body { max-width: 900px; margin: 0 auto; padding: 48px 24px; line-height: 1.55; }
+    .hero { padding: 28px; border-radius: 14px; background: #161616; color: #fff; }
+    .hero h1 { margin: 0 0 8px; font-size: 2.3rem; }
+    .hero p { color: #d0d0d0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 16px; margin: 24px 0; }
+    .card { border: 1px solid #8885; border-radius: 10px; padding: 20px; }
+    .button { display: inline-block; padding: 10px 14px; border-radius: 6px; background: #4589ff; color: #fff; text-decoration: none; font-weight: 600; }
+    code { padding: 2px 5px; border-radius: 4px; background: #8883; }
+    small { color: #888; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>Typed Intent Routing Playground</h1>
+    <p>Download the macOS Apple Silicon client for manual multi-turn routing tests and typed decision inspection.</p>
+    <a class="button" href="https://github.com/gregoriomomm/typed-routing-playground/releases/latest">Download latest release</a>
+  </section>
+  <div class="grid">
+    <section class="card"><h2>Install</h2><p>Download the DMG, verify <code>SHA256SUMS</code>, open it and move the app to Applications.</p></section>
+    <section class="card"><h2>Connect</h2><p>Configure an authorized HTTPS typed API endpoint. The app does not bundle the backend, model or credentials.</p></section>
+    <section class="card"><h2>Test</h2><p>Run single turns, complete histories, digressions, resumes, multi-intent cases and guardrail previews from the playground.</p></section>
+  </div>
+  <h2>Production boundary</h2>
+  <p><code>customer turn + history → typed API → TypedDecision + Transition + DecisionState → agent pre-invoke</code></p>
+  <p>The client is a text-only operator surface. It does not call an LLM directly or execute business tools.</p>
+  <p><a href="https://github.com/gregoriomomm/typed-routing-playground/releases">All releases and checksums</a></p>
+  <p><small>Public distribution repository · source and production deployment are maintained separately.</small></p>
+</body>
+</html>
