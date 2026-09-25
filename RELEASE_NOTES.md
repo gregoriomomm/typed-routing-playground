@@ -9,6 +9,12 @@
 - API URL configuration for local or authorized remote backends;
 - SHA-256 checksums.
 
+## Distribution
+
+The public release includes the Apple Silicon DMG, portable application ZIP,
+and matching checksums. Previous releases remain available as archived
+versions.
+
 ## Boundary
 
 This release contains the desktop client only. It does not include the
