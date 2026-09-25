@@ -1,4 +1,4 @@
-# Typed Intent Routing Playground 1.0.4
+# Typed Intent Routing Playground 1.0.5
 
 ## Included
 
@@ -8,6 +8,12 @@
 - E2E functional test surface;
 - API URL configuration for local or authorized remote backends;
 - SHA-256 checksums.
+
+## Typed-only entry point
+
+The browser and Tauri transports now use the Rust typed playground shell for
+single-turn decisions, complete multi-turn replay, API smoke, IR evaluation
+and Agent Chat. Retired Python/lab routes are not shipped in the built client.
 
 ## Distribution
 
