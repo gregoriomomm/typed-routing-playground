@@ -1,4 +1,4 @@
-# Typed Intent Routing Playground 1.0.5
+# Typed Intent Routing Playground 1.0.6
 
 ## Included
 
