@@ -1,4 +1,12 @@
-# Typed Intent Routing Playground 1.0.7
+# Typed Intent Routing Playground 1.0.8
+
+## Highlights
+
+- refreshed macOS Apple Silicon desktop artifact built from the typed Rust
+  client;
+- focused voice test-user path remains Deepgram Flux → Typed API → Cartesia;
+- public dependency lock refreshed for the supported desktop runtime;
+- release assets are immutable and paired with SHA-256 checksums.
 
 ## Included
 
