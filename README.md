@@ -8,7 +8,7 @@ decision API is deployed separately and must be supplied by the operator.
 
 ## Install
 
-1. Download the [v1.0.6 DMG](https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.6/typed-intent-routing-playground-1.0.6-macos-arm64.dmg), the [application ZIP](https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.6/typed-intent-routing-playground-1.0.6-macos-arm64.app.zip) and [SHA256SUMS](https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.6/SHA256SUMS).
+1. Download the [v1.0.7 DMG](https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.7/typed-intent-routing-playground-1.0.7-macos-arm64.dmg), the [application ZIP](https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.7/typed-intent-routing-playground-1.0.7-macos-arm64.app.zip) and [SHA256SUMS](https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.7/SHA256SUMS).
 2. Verify the SHA-256 value from `SHA256SUMS`.
 3. Open the DMG and move **Typed Intent Routing Playground.app** to Applications.
 4. Start the Rust typed API or obtain an authorized HTTPS endpoint.
@@ -26,6 +26,11 @@ next state. The playground does not execute business tools.
 
 For bulk regression, use the Rust evaluator in the private runtime workspace;
 the public download is for manual testing and operator review.
+
+The 1.0.7 desktop release adds the integrated voice test surface. The
+recommended path is Deepgram Flux → Typed API → Cartesia Sonic 3.6. The
+advanced speech preview is local-only and does not store or display provider
+credentials.
 
 ## Public delivery plan
 

@@ -7,6 +7,7 @@ playground. It is intentionally separate from the production decision service.
 
 ```text
 operator / evaluator → desktop playground → authorized typed API
+voice tester         → voice gateway → Deepgram Flux → typed API → Cartesia
 production agent     → authorized typed API → TypedDecision + Transition
 ```
 
@@ -38,8 +39,8 @@ Before publishing a new installer:
 ## Verification
 
 ```bash
-curl -fsSL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.6/SHA256SUMS
-curl -IL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.6/typed-intent-routing-playground-1.0.6-macos-arm64.dmg
+curl -fsSL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.7/SHA256SUMS
+curl -IL https://github.com/gregoriomomm/typed-routing-playground/releases/download/v1.0.7/typed-intent-routing-playground-1.0.7-macos-arm64.dmg
 ```
 
 The checksum file is the source of truth for the published artifacts. If a
